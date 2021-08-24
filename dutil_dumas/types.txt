@@ -1,0 +1,20 @@
+
+"Annex A : 1999 alphabet"
+x-000
+x-104
+
+
+"Annex B : 1999 message"
+x-105
+x-127
+
+
+"Annex C : 2003 alphabet"
+x-128
+x-219
+
+
+"Annex D : 2003 message"
+x-220
+x-241
+
