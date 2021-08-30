@@ -1,0 +1,12 @@
+wget -r -np https://blog.plover.com/aliens/
+wget -r -np https://pic.blog.plover.com/aliens/
+wget -r -np https://www.plover.com/~mjd/misc/Dumas-Dutil/
+
+DO_HASH.sh 
+find . -type f -exec file {} \; | sort > z5_file.txt
+
+mkdir messages_img
+pdfimages -all -p www.plover.com/~mjd/misc/Dumas-Dutil/messages.pdf  messages_img/p
+
+h > z0_history.txt
+

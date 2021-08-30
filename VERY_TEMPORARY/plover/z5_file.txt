@@ -1,0 +1,431 @@
+blog.plover.com/aliens/color-perception-1.html: HTML document, ASCII text, with very long lines
+blog.plover.com/aliens/color-perception-2.html: HTML document, ASCII text, with very long lines
+blog.plover.com/aliens/dd/index.atom: XML 1.0 document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/index.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/index.rss: XML 1.0 document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/intro.html: HTML document, ASCII text, with very long lines
+blog.plover.com/aliens/dd/p00.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p01.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p02.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p03.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p04.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p05.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p06.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p07.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p08.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p09.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p10.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p11.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p12.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p13.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p14.html: HTML document, ASCII text, with very long lines
+blog.plover.com/aliens/dd/p15.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p16.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p17.html: HTML document, ASCII text, with very long lines
+blog.plover.com/aliens/dd/p18.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p19.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p21.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p22.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/dd/p23.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/emotions-2.html: HTML document, ASCII text, with very long lines
+blog.plover.com/aliens/emotions.html: HTML document, ASCII text, with very long lines
+blog.plover.com/aliens/index.html: HTML document, UTF-8 Unicode text, with very long lines
+blog.plover.com/aliens/known-to-man-2.html: HTML document, ASCII text, with very long lines
+messages_img/p-006-000.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-001.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-002.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-003.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-004.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-005.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-006.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-007.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-008.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-009.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-010.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-011.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-012.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-013.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-014.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-015.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-016.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-017.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-018.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-019.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-020.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-021.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-006-022.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-023.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-024.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-025.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-026.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-027.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-028.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-029.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-030.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-031.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-032.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-033.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-034.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-035.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-036.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-037.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-038.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-039.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-040.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-041.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-042.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-043.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-044.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-045.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-046.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-047.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-048.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-007-049.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-050.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-051.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-052.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-053.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-054.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-055.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-056.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-057.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-058.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-059.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-060.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-061.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-062.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-063.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-064.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-065.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-066.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-067.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-068.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-069.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-070.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-071.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-072.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-073.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-074.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-075.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-076.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-077.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-078.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-079.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-080.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-081.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-008-082.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-083.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-084.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-085.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-086.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-087.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-088.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-089.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-090.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-091.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-092.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-093.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-094.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-095.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-096.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-097.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-098.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-099.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-100.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-101.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-102.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-103.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-009-104.png: PNG image data, 35 x 49, 8-bit/color RGB, non-interlaced
+messages_img/p-010-105.png: PNG image data, 487 x 487, 8-bit/color RGB, non-interlaced
+messages_img/p-011-106.png: PNG image data, 487 x 487, 8-bit/color RGB, non-interlaced
+messages_img/p-012-107.png: PNG image data, 487 x 487, 8-bit/color RGB, non-interlaced
+messages_img/p-013-108.png: PNG image data, 360 x 360, 8-bit/color RGB, non-interlaced
+messages_img/p-014-109.png: PNG image data, 543 x 543, 8-bit/color RGB, non-interlaced
+messages_img/p-015-110.png: PNG image data, 543 x 543, 8-bit/color RGB, non-interlaced
+messages_img/p-016-111.png: PNG image data, 487 x 487, 8-bit/color RGB, non-interlaced
+messages_img/p-017-112.png: PNG image data, 468 x 468, 8-bit/color RGB, non-interlaced
+messages_img/p-018-113.png: PNG image data, 487 x 487, 8-bit/color RGB, non-interlaced
+messages_img/p-019-114.png: PNG image data, 468 x 468, 8-bit/color RGB, non-interlaced
+messages_img/p-020-115.png: PNG image data, 506 x 506, 8-bit/color RGB, non-interlaced
+messages_img/p-021-116.png: PNG image data, 468 x 468, 8-bit/color RGB, non-interlaced
+messages_img/p-022-117.png: PNG image data, 487 x 487, 8-bit/color RGB, non-interlaced
+messages_img/p-023-118.png: PNG image data, 468 x 468, 8-bit/color RGB, non-interlaced
+messages_img/p-024-119.png: PNG image data, 468 x 468, 8-bit/color RGB, non-interlaced
+messages_img/p-025-120.png: PNG image data, 468 x 468, 8-bit/color RGB, non-interlaced
+messages_img/p-026-121.png: PNG image data, 487 x 487, 8-bit/color RGB, non-interlaced
+messages_img/p-027-122.png: PNG image data, 487 x 487, 8-bit/color RGB, non-interlaced
+messages_img/p-028-123.png: PNG image data, 472 x 472, 8-bit/color RGB, non-interlaced
+messages_img/p-028-124.png: PNG image data, 468 x 468, 8-bit/color RGB, non-interlaced
+messages_img/p-029-125.png: PNG image data, 468 x 468, 8-bit/color RGB, non-interlaced
+messages_img/p-030-126.png: PNG image data, 487 x 487, 8-bit/color RGB, non-interlaced
+messages_img/p-031-127.png: PNG image data, 468 x 468, 8-bit/color RGB, non-interlaced
+messages_img/p-032-128.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-129.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-130.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-131.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-132.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-133.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-134.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-135.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-136.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-137.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-138.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-139.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-140.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-141.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-142.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-143.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-144.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-145.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-146.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-032-147.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-148.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-149.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-150.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-151.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-152.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-153.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-154.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-155.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-156.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-157.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-158.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-159.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-160.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-161.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-162.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-163.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-164.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-165.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-166.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-167.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-168.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-169.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-170.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-171.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-172.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-173.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-174.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-175.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-033-176.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-177.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-178.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-179.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-180.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-181.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-182.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-183.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-184.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-185.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-186.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-187.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-188.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-189.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-190.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-191.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-192.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-193.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-194.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-195.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-196.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-197.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-198.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-199.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-200.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-201.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-202.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-203.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-034-204.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-205.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-206.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-207.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-208.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-209.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-210.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-211.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-212.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-213.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-214.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-215.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-216.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-217.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-218.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-035-219.png: PNG image data, 40 x 56, 8-bit/color RGB, non-interlaced
+messages_img/p-037-220.png: PNG image data, 1016 x 749, 8-bit/color RGB, non-interlaced
+messages_img/p-038-221.png: PNG image data, 1013 x 752, 8-bit/color RGB, non-interlaced
+messages_img/p-039-222.png: PNG image data, 1015 x 686, 8-bit/color RGB, non-interlaced
+messages_img/p-040-223.png: PNG image data, 1014 x 834, 8-bit/color RGB, non-interlaced
+messages_img/p-041-224.png: PNG image data, 1016 x 1043, 8-bit/color RGB, non-interlaced
+messages_img/p-042-225.png: PNG image data, 1018 x 563, 8-bit/color RGB, non-interlaced
+messages_img/p-043-226.png: PNG image data, 1016 x 534, 8-bit/color RGB, non-interlaced
+messages_img/p-044-227.png: PNG image data, 1016 x 589, 8-bit/color RGB, non-interlaced
+messages_img/p-045-228.png: PNG image data, 1018 x 584, 8-bit/color RGB, non-interlaced
+messages_img/p-046-229.png: PNG image data, 1018 x 901, 8-bit/color RGB, non-interlaced
+messages_img/p-047-230.png: PNG image data, 1016 x 851, 8-bit/color RGB, non-interlaced
+messages_img/p-048-231.png: PNG image data, 1015 x 779, 8-bit/color RGB, non-interlaced
+messages_img/p-049-232.png: PNG image data, 1016 x 843, 8-bit/color RGB, non-interlaced
+messages_img/p-050-233.png: PNG image data, 1018 x 791, 8-bit/color RGB, non-interlaced
+messages_img/p-051-234.png: PNG image data, 1016 x 1079, 8-bit/color RGB, non-interlaced
+messages_img/p-052-235.png: PNG image data, 1016 x 910, 8-bit/color RGB, non-interlaced
+messages_img/p-053-236.png: PNG image data, 1016 x 849, 8-bit/color RGB, non-interlaced
+messages_img/p-054-237.png: PNG image data, 1015 x 939, 8-bit/color RGB, non-interlaced
+messages_img/p-055-238.png: PNG image data, 1016 x 996, 8-bit/color RGB, non-interlaced
+messages_img/p-056-239.png: PNG image data, 1018 x 255, 8-bit/color RGB, non-interlaced
+messages_img/p-057-240.png: PNG image data, 1018 x 583, 8-bit/color RGB, non-interlaced
+messages_img/p-058-241.png: PNG image data, 1017 x 532, 8-bit/color RGB, non-interlaced
+pic.blog.plover.com/aliens/color-perception-1/blosxom-sux.png: PNG image data, 80 x 15, 8-bit/color RGB, non-interlaced
+pic.blog.plover.com/aliens/color-perception-1/index.html: HTML document, ASCII text
+pic.blog.plover.com/aliens/dd/dd.zip: Zip archive data, at least v2.0 to extract
+pic.blog.plover.com/aliens/dd/index.html: HTML document, ASCII text
+pic.blog.plover.com/aliens/dd/png/p01.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p02.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p03.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p04.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p05.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p06.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p07.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p08.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p09.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p10.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p11.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p12.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p13.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p14.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p15.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p16.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p17.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p18.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p19.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p20.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p21.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p22.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/png/p23.png: PNG image data, 762 x 762, 1-bit colormap, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p01.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p02.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p03.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p04.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p05.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p06.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p07.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p08.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p09.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p10.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p11.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p12.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p13.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p14.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p15.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p16.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p17.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p18.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p19.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p20.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p21.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p22.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/dd/reduced/p23.png: PNG image data, 127 x 127, 1-bit grayscale, non-interlaced
+pic.blog.plover.com/aliens/emotions-2/index.html: HTML document, ASCII text
+pic.blog.plover.com/aliens/emotions-2/puddles-sm.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 150x184, components 3
+pic.blog.plover.com/aliens/emotions-2/puddles.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 200x200, segment length 16, baseline, precision 8, 300x367, components 3
+pic.blog.plover.com/aliens/emotions/index.html: HTML document, ASCII text
+pic.blog.plover.com/aliens/emotions/puddles-sm.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 150x184, components 3
+pic.blog.plover.com/aliens/emotions/puddles.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 200x200, segment length 16, baseline, precision 8, 300x367, components 3
+pic.blog.plover.com/aliens/index.html: HTML document, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/evpatoria07.pdf: PDF document, version 1.4
+www.plover.com/~mjd/misc/Dumas-Dutil/evpatoria_2003.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1024x16632, components 3
+www.plover.com/~mjd/misc/Dumas-Dutil/index.html: HTML document, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/messages.pdf: PDF document, version 1.5
+www.plover.com/~mjd/misc/Dumas-Dutil/p01.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p02.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p03.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p04.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p05.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p06.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p07.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p08.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p09.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p10.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p11.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p12.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p13.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p14.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p15.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p16.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p17.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p18.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p19.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p20.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p21.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p22.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/p23.gif: GIF image data, version 89a, 533 x 533
+www.plover.com/~mjd/misc/Dumas-Dutil/png/index.html: HTML document, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p01-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p02-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p03-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p04-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p05-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p06-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p07-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p08-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p09-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p10-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p11-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p12-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p13-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p14-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p15-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p16-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p17-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p18-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p19-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p20-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p21-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p22-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/png/p23-lg.png: PNG image data, 1016 x 1016, 1-bit colormap, non-interlaced
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/index.html: HTML document, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p01.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p01.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p02.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p02.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p03.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p03.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p04.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p04.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p05.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p05.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p06.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p06.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p07.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p07.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p08.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p08.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p09.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p09.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p10.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p10.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p11.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p11.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p12.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p12.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p13.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p13.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p14.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p14.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p15.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p15.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p16.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p16.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p17.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p17.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p18.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p18.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p19.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p19.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p20.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p20.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p21.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p21.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p22.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p22.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p23.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 72x72, segment length 16, baseline, precision 8, 127x127, components 1
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/p23.pbm: Netpbm image data, size = 127 x 127, bitmap, ASCII text
+www.plover.com/~mjd/misc/Dumas-Dutil/reduced/ppmsample: Perl script text executable

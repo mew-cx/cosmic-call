@@ -1,0 +1,9 @@
+181	./messages_img/p-006-020.png
+181	./messages_img/p-008-067.png
+
+3939	./pic.blog.plover.com/aliens/emotions-2/puddles-sm.jpg
+3939	./pic.blog.plover.com/aliens/emotions/puddles-sm.jpg
+
+18684	./pic.blog.plover.com/aliens/emotions-2/puddles.jpg
+18684	./pic.blog.plover.com/aliens/emotions/puddles.jpg
+

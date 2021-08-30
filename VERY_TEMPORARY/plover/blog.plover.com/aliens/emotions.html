@@ -1,0 +1,708 @@
+<html>
+
+<head>
+<title>The Universe of Discourse : Emotions</title>
+<meta name="referrer" content="always">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://blog.plover.com/index.rss" />
+<link rel="alternate" type="application/atom+xml" title="Atom"
+      href="https://blog.plover.com/index.atom" />
+
+<link rel="me" type="mastodon" href="https://mathstodon.xyz/@mjd"/>
+
+<link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
+<link rel="openid2.local_id" href="https://openid.stackexchange.com/user/1b891001-2f6a-41a9-8754-aeab31dd4599">
+<link rel='icon' sizes="192x192" href='https://pic.blog.plover.com/HOP-192.png' />
+<link rel='icon' sizes="128x128" href='https://pic.blog.plover.com/HOP-128.png' />
+<link rel="apple-touch-icon" sizes="192x192" href="https://pic.blog.plover.com/HOP-192.png">
+<meta property="og:title" content="The Universe of Discourse : Emotions">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pic.blog.plover.com/FIRST_IMAGE_DEFAULT.jpg">
+<meta property="og:url" content="https://blog.plover.com/aliens/emotions.html">
+<!-- REDIRECT: -->
+
+<!-- MathJax -->
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- To enable inlining of $ ... $
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+-->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['!!','!!']]}, // temporary
+  // don't forget that TeX's line break \\ will not work in Markdown!
+  // use \\\\ instead!
+});
+</script>
+
+
+<style>
+pre {
+  overflow: auto;
+  background-color: #e4f0e4;
+  border-top:  1px #d0d0d0 solid;
+  border-left: 1px #d0d0d0 solid;
+  padding: .6em 0;
+}
+
+pre.digression  {
+  background-color: #ffdddd;
+}
+
+table.maintable {
+  table-layout: fixed;
+  width: 100%;
+  border-top: thin solid black;
+  border-bottom: thin solid black;
+}
+
+td.sidebar {
+  padding: 0 0.5em;
+  width: 8em;
+}
+
+td.mainsection {
+  padding: 0 1em;
+  width: 100%;
+}
+
+pre.erroneous  {
+  background-color: #ffdddd;
+}
+
+blockquote {
+  border-top:  1px #d0d0d0 solid;
+  border-left: 1px #d0d0d0 solid;
+  padding: 3px;
+  background-color: #ffeef1;
+}
+
+blockquote blockquote {
+  background-color: #f1d2f1;
+}
+
+blockquote blockquote blockquote {
+  background-color: #bee6f2;
+}
+
+blockquote blockquote blockquote blockquote {
+  background-color: #bee9df;
+}
+
+.emph {
+  color: purple;
+  font-weight: bolder;
+}
+
+.displayImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookbox table          { margin-left:    0.5em;
+                          margin-bottom:  0.5em;
+}
+
+@media print, handheld, screen and (max-device-width: 800px) {
+  .sidebar { display: none; }
+  .bookbox { display: none; }
+}
+
+body,td           { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    color: #222222; }
+a:link               { color: #000066 }
+a:visited            { color: #000066 }
+.sidebar  a:link     { color: #000000 }
+.sidebar  a:visited  { color: #000000 }
+.pagetitle        { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    font-size: xx-large; font-weight: bold; color: #336699; }
+h1.pagetitle { padding: 0; margin: 0; }
+.dateheader       { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    font-size: large; font-weight: bold; color: #336699; }
+.storytitle       { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    font-size: x-large; font-weight: bold; color:
+                    #336699; text-decoration: none; }
+
+
+h2       { font-size: x-large; font-weight: bold; color: #bb4488;
+           font-family: Verdana,Geneva,Arial,Sans-serif;  }
+h3       { font-size: large; color: #996699;
+           font-family: Verdana,Geneva,Arial,Sans-serif;  }
+h4       { font-size: medium; color: #9966ee;
+           font-family: Verdana,Geneva,Arial,Sans-serif;  }
+table.menuitem         { margin-bottom: 2px;  }
+td.menuitem         { font-size: small; background-color: #ccccff;
+           margin-bottom: 2px;  }
+.menuitem a        { font-size: small; text-decoration: none }
+.toc     { font-size: small; background-color: #ccccff; }
+
+img { max-width: 100% }
+img.center { display: block; margin-left: auto; margin-right: auto }
+.caption { text-align: center; display: block; margin-left: auto; margin-right: auto }
+
+
+.spoiler {
+  color: black; background-color: black;
+  border: black thin solid;
+}
+
+.spoiler:hover {
+  color: inherit; background-color: inherit;
+}
+
+span[tooltip] {
+  position: relative;
+#  text-decoration: underline;
+#  color: #00F;
+  cursor: help;
+}
+
+span[tooltip]:hover::after,
+span[tooltip]:focus::after {
+  content: attr(tooltip);
+  position: absolute;
+  left: 0;
+  top: 24px;
+#  min-width: 200px;
+  border: 1px #aaaaaa solid;
+  border-radius: 10px;
+  background-color: #ffffcc;
+  padding: 12px;
+  color: #000000;
+  font-size: 14px;
+  z-index: 1;
+}
+
+@media handheld, screen and (max-device-width: 800px) {
+  .MathJax_Display { overflow-x: scroll; }
+}
+
+</style>
+
+<meta name="google-site-verification"
+      content="XLxterQkreKJ10X-T_OAhtcZfF6si4ZF2vupilmCNEM" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<h1 class="pagetitle">
+<a
+  style="text-decoration: none" href="https://blog.plover.com/">The Universe of Discourse</a>
+</h1>
+
+<table class="maintable" border="0" cellpadding="0" cellspacing="0">
+
+ <tr valign="top">
+
+  <!-- left column -->
+  <td class="sidebar" bgcolor="#6699cc">
+
+   <p>
+   <br />
+   Mark Dominus (&#38518;&#25935;&#20462;)<br />
+   <a href="mailto:mjd@pobox.com">mjd@pobox.com</a> <br />
+   </p>
+
+   <p>
+   <img width=100 height=100 src="https://pic.blog.plover.com/TOP.jpg"><br />
+   </p>
+
+   <p>
+   <a href="https://blog.plover.com/meta/about-me.html">About me</a>
+   </p>
+
+   <p>
+   <a href="https://blog.plover.com/index.rss">RSS</a>
+   <a href="https://blog.plover.com/index.atom">Atom</a>   </p>
+
+
+   <p><a href="https://blog.plover.com/">12 recent entries</a><br>
+  <table class="menuitem" width="100%" style="border-spacing: 0 1px;">
+ <tr><td class="menuitem"><a href="https://blog.plover.com/lang/dummy-prononus.html"><span class=menuitem>Examples of dummy pronouns</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/etym/duckface.html"><span class=menuitem>Duckface in German</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/etym/badugi.html"><span class=menuitem>Dogs that look like board games</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/beep-beep.html"><span class=menuitem>Odd translation choices</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/broth-guzzler.html"><span class=menuitem>More soup-guzzling</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/book/Scrooge.html"><span class=menuitem>Scrooge</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/book/pie-muncher.html"><span class=menuitem>Soup-guzzling pie-munchers</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/book/skin-worms.html"><span class=menuitem>Skin worms?</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/misc/canal.html"><span class=menuitem>Something I didn't know and I bet you didn't either</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/misc/sentences-yuck.html"><span class=menuitem>Two sentences that made me stop to think</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/music/synthpop.html"><span class=menuitem>Synthesizer bands</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/magistral.html"><span class=menuitem>Trans-Siberian Railway</span></a>
+
+  </table>
+</p>
+
+   <p>Archive:<br><table>
+<tr><td><a href="https://blog.plover.com/2021/">2021</a>:
+    <td><a href="https://blog.plover.com/2021/01/">J</a><a href="https://blog.plover.com/2021/02/">F</a><a href="https://blog.plover.com/2021/03/">M</a><a href="https://blog.plover.com/2021/04/">A</a>M<a href="https://blog.plover.com/2021/04/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2021/07/">J</a>
+<tr><td><a href="https://blog.plover.com/2020/">2020</a>:
+    <td><a href="https://blog.plover.com/2020/01/">J</a><a href="https://blog.plover.com/2020/02/">F</a><a href="https://blog.plover.com/2020/03/">M</a><a href="https://blog.plover.com/2020/04/">A</a><a href="https://blog.plover.com/2020/05/">M</a><a href="https://blog.plover.com/2020/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2020/07/">J</a><a href="https://blog.plover.com/2020/08/">A</a><a href="https://blog.plover.com/2020/09/">S</a><a href="https://blog.plover.com/2020/10/">O</a><a href="https://blog.plover.com/2020/11/">N</a><a href="https://blog.plover.com/2020/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2019/">2019</a>:
+<td><a href="https://blog.plover.com/2019/01/">J</a>F<a href="https://blog.plover.com/2019/03/">M</a><a href="https://blog.plover.com/2019/04/">A</a><a href="https://blog.plover.com/2019/05/">M</a><a href="https://blog.plover.com/2019/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2019/07/">J</a><a href="https://blog.plover.com/2019/08/">A</a><a href="https://blog.plover.com/2019/09/">S</a><a href="https://blog.plover.com/2019/10/">O</a><a href="https://blog.plover.com/2019/11/">N</a><a href="https://blog.plover.com/2019/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2018/">2018</a>:
+<td><a href="https://blog.plover.com/2018/01/">J</a><a href="https://blog.plover.com/2018/02/">F</a><a href="https://blog.plover.com/2018/03/">M</a><a href="https://blog.plover.com/2018/04/">A</a><a href="https://blog.plover.com/2018/05/">M</a><a href="https://blog.plover.com/2018/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2018/07/">J</a><a href="https://blog.plover.com/2018/08/">A</a><a href="https://blog.plover.com/2018/09/">S</a><a href="https://blog.plover.com/2018/10/">O</a><a href="https://blog.plover.com/2018/11/">N</a><a href="https://blog.plover.com/2018/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2017/">2017</a>:
+<td><a href="https://blog.plover.com/2017/01/">J</a><a href="https://blog.plover.com/2017/02/">F</a><a href="https://blog.plover.com/2017/03/">M</a><a href="https://blog.plover.com/2017/04/">A</a><a href="https://blog.plover.com/2017/05/">M</a><a href="https://blog.plover.com/2017/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2017/07/">J</a><a href="https://blog.plover.com/2017/08/">A</a><a href="https://blog.plover.com/2017/09/">S</a><a href="https://blog.plover.com/2017/10/">O</a></a><a href="https://blog.plover.com/2017/11/">N</a><a href="https://blog.plover.com/2017/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2016/">2016</a>:
+<td>J<a href="https://blog.plover.com/2016/02/">F</a><a href="https://blog.plover.com/2016/03/">M</a><a href="https://blog.plover.com/2016/04/">A</a><a href="https://blog.plover.com/2016/05/">M</a><a href="https://blog.plover.com/2016/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2016/07/">J</a>ASO<a href="https://blog.plover.com/2016/11/">N</a><a href="https://blog.plover.com/2016/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2015/">2015</a>:
+<td>JF<a href="https://blog.plover.com/2015/03/">M</a><a href="https://blog.plover.com/2015/04/">A</a><a href="https://blog.plover.com/2015/05/">M</a><a href="https://blog.plover.com/2015/06/">J</a><tr><td>&nbsp;<td><a href="https://blog.plover.com/2015/07/">J</a><a href="https://blog.plover.com/2015/08/">A</a><a href="https://blog.plover.com/2015/09/">S</a><a href="https://blog.plover.com/2015/10/">O</a><a href="https://blog.plover.com/2015/11/">N</a><a href="https://blog.plover.com/2015/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2014/">2014</a>:
+<td><a href="https://blog.plover.com/2014/01/">J</a><a href="https://blog.plover.com/2014/02/">F</a><a href="https://blog.plover.com/2014/03/">M</a><a href="https://blog.plover.com/2014/04/">A</a>MJ<tr><td>&nbsp;<td><a href="https://blog.plover.com/2014/07/">J</a>ASO<a href="https://blog.plover.com/2014/11/">N</a><a href="https://blog.plover.com/2014/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2013/">2013</a>:
+<td>JFMAMJ<tr><td>&nbsp;<td><a href="https://blog.plover.com/2013/07/">J</a>A<a href="https://blog.plover.com/2013/09/">S</a><a href="https://blog.plover.com/2013/10/">O</a>N<a href="https://blog.plover.com/2013/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2012/">2012</a>:
+<td><a href="https://blog.plover.com/2012/01/">J</a><a href="https://blog.plover.com/2012/02/">F</a><a href="https://blog.plover.com/2012/03/">M</a>AMJ
+<tr><td>&nbsp;<td>J<a href="https://blog.plover.com/2010/08/">A</a>SON<a href="https://blog.plover.com/2012/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2011/">2011</a>:
+<td>JFMA<a href="https://blog.plover.com/2011/05/">M</a><a href="https://blog.plover.com/2011/06/">J</a>
+<tr><td>&nbsp;<td>JASO<a href="https://blog.plover.com/2011/11/">N</a>D
+<tr><td><a href="https://blog.plover.com/2010/">2010</a>:
+<td><a href="https://blog.plover.com/2010/01/">J</a>FMAMJ
+<tr><td>&nbsp;<td>J<a href="https://blog.plover.com/2010/08/">A</a><a href="https://blog.plover.com/2010/09/">S</a><a href="https://blog.plover.com/2010/10/">O</a><a href="https://blog.plover.com/2010/11/">N</a>D
+<tr><td><a href="https://blog.plover.com/2009/">2009</a>:
+<td><a href="https://blog.plover.com/2009/01/">J</a><a href="https://blog.plover.com/2009/02/">F</a><a href="https://blog.plover.com/2009/03/">M</a>A<a href="https://blog.plover.com/2009/05/">M</a><a href="https://blog.plover.com/2009/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2009/07/">J</a>A<a href="https://blog.plover.com/2009/09/">S</a>ON<a href="https://blog.plover.com/2009/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2008/">2008</a>:
+<td><a href="https://blog.plover.com/2008/01/">J</a><a href="https://blog.plover.com/2008/02/">F</a><a href="https://blog.plover.com/2008/03/">M</a><a href="https://blog.plover.com/2008/04/">A</a><a href="https://blog.plover.com/2008/05/">M</a><a href="https://blog.plover.com/2008/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2008/07/">J</a>A<a href="https://blog.plover.com/2008/09/">S</a><a href="https://blog.plover.com/2008/10/">O</a><a href="https://blog.plover.com/2008/11/">N</a>D
+<tr><td><a href="https://blog.plover.com/2007/">2007</a>:
+<td><a href="https://blog.plover.com/2007/01/">J</a><a href="https://blog.plover.com/2007/02/">F</a><a href="https://blog.plover.com/2007/03/">M</a><a href="https://blog.plover.com/2007/04/">A</a><a href="https://blog.plover.com/2007/05/">M</a><a href="https://blog.plover.com/2007/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2007/07/">J</a><a href="https://blog.plover.com/2007/08/">A</a><a href="https://blog.plover.com/2007/09/">S</a><a href="https://blog.plover.com/2007/10/">O</a><a href="https://blog.plover.com/2007/11/">N</a><a href="https://blog.plover.com/2007/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2006/">2006</a>:
+<td><a href="https://blog.plover.com/2006/01/">J</a><a href="https://blog.plover.com/2006/02/">F</a><a
+href="https://blog.plover.com/2006/03/">M</a><a href="https://blog.plover.com/2006/04/">A</a><a
+href="https://blog.plover.com/2006/05/">M</a><a href="https://blog.plover.com/2006/06/">J</a>
+<tr><td>&nbsp;<td> <a href="https://blog.plover.com/2006/07/">J</a>A<a
+href="https://blog.plover.com/2006/09/">S</a><a
+href="https://blog.plover.com/2006/10/">O</a><a
+href="https://blog.plover.com/2006/11/">N</a><a
+href="https://blog.plover.com/2006/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2005/">2005</a>: <td><a
+href="https://blog.plover.com/2005/10/">O</a><a href="https://blog.plover.com/2005/11/">N</a><a
+href="https://blog.plover.com/2005/12/">D</a>
+</table>
+<br>
+</p>
+
+
+
+<hr>
+Subtopics:<br>
+<p><table width="100%" style="border-spacing: 0 1px;"  class='menuitem'><tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/math/">Mathematics</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">191</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/prog/">Programming</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">79</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/lang/">Language</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">67</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/misc/">Misc</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">48</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/book/">Book</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">43</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/tech/">Tech</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">36</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/oops/">Oops</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">27</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/aliens/dd/">Cosmic Call</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">25</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/Unix/">Unix</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">23</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/prog/haskell/">Haskell</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">22</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/physics/">Physics</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">21</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/lang/etym/">Etymology</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">19</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/law/">Law</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">16</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/prog/perl/">Perl</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">16</tr>
+</table>
+</p>
+
+   <p>
+   <img alt="" src="https://pic.blog.plover.com/buttons/mjd-universe.png"
+   border="0" vspace=1 /></a>
+   <a href="http://hop.perl.plover.com/"><img alt="Higher-Order Perl"
+   src="https://pic.blog.plover.com/buttons/HOP-BUTTON.png" border="0" vspace=1 /></a>
+   <a href="http://blosxom.sourceforge.net/"><img alt="Blosxom"
+   src="https://pic.blog.plover.com/buttons/blosxom-sux.png" border="0" vspace=1 /></a>
+   </p>
+
+<!--  <a href="http://www.blosxom.com/"><img alt="Blosxom" rc="http://www.blosxom.com/images/pb_blosxom.gif" border="1" hspace="3" vspace="3" /></a>-->
+   </p>
+
+<!--  <p>  </p> -->
+
+<!--  <p><a href="http://technorati.com/claim/hzrgjnktrw">Technorati Profile</a></p> -->
+
+  <p><span style="font-size: small; background-color: #ccccff; padding: 2px;">Comments disabled</span></p>
+  </td>
+
+  <!-- main blog entry column -->
+  <td class="mainsection" bgcolor="#f3f3f3">
+
+   <br />
+
+<span class="dateheader">Thu, 16 Mar 2006</span>
+<p>
+<a class="storytitle" name="emotions" href="https://blog.plover.com/aliens/emotions.html">Emotions</a>
+<br />
+
+I was planning to write another article about &pi;, and its appearance
+in Coulomb's law, or perhaps an article about how to calculate the volume
+of a higher-dimensional analogue of a sphere.  <p>
+
+But John Speno says he always skips the math stuff on my blog, and the
+last couple of days have been unrelievedly mathematical.  So instead,
+John, I have written an article about the comparison of emotions,
+whether the 18-toed Sirian ghost worms will understand why you are
+holding your nose, Homer Simpson, the evolutionary justification for
+disgust, the Indiana Pacers cheerleading squad, Paris Hilton, and
+maggots.  Skip this, I <i>dare</i> you.<p>
+
+<hr>
+
+My shrink had a little trope that she'd trot out when she asked me how
+I had felt about something and I wasn't sure.  "Mad, sad, glad,
+scared," she'd say, and that was helpful, because those four do cover
+an awful lot of situations.  And learning to recognize those four is
+very important.<p>
+
+But one day she pushed the idea too far and asserted that those
+were the only emotions there are.  <p>
+
+That's clearly wrong.  Even discounting emotions that might be
+considered variations on the big four, such as: 
+(anger) rage, annoyance, resentment, frustration,
+(sadness) grief, disappointment, remorse, loneliness,
+(happiness) delight, joy, pride, 
+(fear) nervousness, dread, terror, panic,
+and so on, we still have:<p>
+
+<ul>
+<li> Boredom
+<li> Disgust
+<li> Envy
+<li> Guilt
+<li> Jealousy
+<li> Lust
+<li> Shame
+<li> Surprise
+</ul>
+
+It's funny that a shrink would forget about guilt, but there you
+are.<p>
+
+Some of these may require explanation.  People sometimes use the word
+"disgust" metaphorically to refer to a feeling that is really nine
+parts anger to one part boredom, as when they say they are disgusted
+with the state of American politics.  But that's not what I mean by it
+here.  The disgust I'm referring to is the feeling you have when you
+have been on vacation and come back to discover that the power went out
+while you were away and the meat in the refrigerator has spoiled and
+slid out onto the kitchen floor where it is now festering with
+thousands of squirming, white, eyeless maggots, and the instant you
+see it, your reaction is to (a) turn away, (b) hold your nose, and (c)
+vomit.  I suppose it's possible that some people would have that very
+reaction to American politics; it's certainly understandable.  But I
+don't think that's what people usually mean when they say that
+politics disgusts them.  Or if they do mean it, they mean it only in a
+hyperbolic sense.<p>
+
+People often confuse guilt and shame, but they are really orthogonal.
+You feel guilt when you have done something you believe is ethically
+or morally wrong.  You feel shame when <i>other people</i> observe you
+doing something that they shouldn't see, whether or not that thing is
+ethically or morally wrong.  The problem is with the observing, not
+with the thing that is being observed.  I think the following example
+will help clear up the confusion: One might or might not feel guilty
+about picking one's nose, although I think most people don't feel
+guilty when they do it.  But even someone who picks their nose
+entirely without guilt, probably feels ashamed if someone else catches
+them in the act.  <p>
+
+The other two that are often confused are envy and jealousy.  Here I
+think the confusion is caused simply because people don't know what
+the words mean.  Envy is what you feel when you want what someone else
+has; you can envy someone else's car or their lunch or their special
+relationship with their lover.  Jealousy is much more specific. You
+are jealous when you <i>have</i> a special relationship with a person,
+and you are afraid that you are going to lose them to a third person.
+You can  envy someone else's possession of a ham sandwich, but
+jealousy of a ham sandwich is impossible.<p>
+
+I might be willing to believe the proposition these eight, plus the
+original four (anger, sadness, happiness, and fear) constitute a
+complete set of "primary colors" for human emotion, and that you can
+consider the others as being mixtures of various amounts of these
+twelve.  For example, you go up on stage to accept an award, and your
+trousers fall off, and you feel embarrassed.  What is embarrassment?
+It's maybe five parts shame, two parts fear, and one part surprise.
+Take away any of these three things, and you no longer have
+embarrassment, but something else.  Add in anger and you have
+humiliation.<p>
+
+If someone wants to argue that jealousy is compounded from fear,
+anger, and envy, and should be removed from the list in favor of
+affection or confusion, I won't complain.  The list is necessarily
+dependent on culture, and even more so on the individual making it.
+Not every culture will have anything like jealousy; perhaps most
+won't.  Romantic love seems to be a uniquely European invention,
+dating from around the 13th century.  <p>
+
+Another problem with the list is that even within one culture, there
+may not be agreement on which kinds of feelings qualify as emotions.
+Does hunger qualify?  Or fatigue?  It seems to me that some emotions
+are more rooted in the physical processes of the body, and others less
+so.  Guilt is at the "high" end of that scale: it refers to a feeling
+you have in your mind when you have done something that you feel you
+shouldn't have.  It is hardly associated with the body at all.  A
+brain in a vat could feel guilt, and probably does.  At the "low" end
+of the scale is disgust, the experience of which is much less about an
+the social constructions in your mind than it is about your stomach
+trying to turn itself inside out.  I think hunger and fatigue are even
+farther down the scale of body-vs-mind than disgust; below even those
+is pain, and at the very bottom are feelings like the one you have in
+your arm when you open a door, which is purely physical and has no
+emotional content whatsoever.  The counterparts at the top end of the
+scale are plans, analyses, and the like, which are purely mental and
+have no emotional content.  Emotion is somewhere in between, and I can
+imagine that someone else could want to exclude disgust or guilt from
+a list of emotions because they were too far down from the middle of
+the scale.<p>
+
+An exercise I love to do is to try to consider what we will have in
+common with the space aliens.  For example, do the space aliens
+consider the P=NP problem interesting?  Do the space aliens consider
+the set of real numbers as a fundamental object, or as an obscure
+construction only of interest to set theorists?  I will probably
+address these topics in future articles.  Meanwhile, this article,
+believe it or not, started out as a discussion of whether the space
+aliens, when they arrive, will already know how to play chess.  (Well,
+obviously not.  But it is less obvious that they will not already know
+how to play go.  I will write that article sooner or later.)<p>
+
+But now we might ask what kinds of emotions the aliens will have.  The
+question seems at first glance to be completely impossible.  But I
+believe that partial answers are possible.  <p>
+
+As emotions get higher up on the body-to-mind scale, it becomes less
+likely that they will be shared by the aliens; such emotions are not
+even cross-cultural among humans.  Our experience of guilt is very much
+dependent on our culture, and in particular on our relationship to law
+and authority, much of which is the result of two thousand years of
+Christian philosophizing.  The converse is that emotions that are low
+on the body-to-mind scale are much more universal among people.
+Perhaps not everyone feels guilt.  But everyone feels disgust.<p>
+
+Disgust is particularly easy to analyze from the point of view of
+natural selection.  It is to a large extent an aversion to dangerous
+biohazards: rotten food and carcasses; decay, including mold, and
+things that look like mold; excrement, vomit, and other body
+substances that should be inside but that have come out;
+disembowelment and bodily mutilation; deformity and disease.  Rotting
+meat is extremely poisonous, so an automatic aversion reaction makes
+evolutionary sense: the people who turned away in disgust lived longer
+than the people who saw an opportunity for a free lunch.  Excrement,
+and particularly human excrement, harbors bacteria dangerous to humans,
+so an automatic aversion reaction makes evolutionary sense.  Deformity
+is similar.  Perhaps whatever caused it is not contagious&mdash;but
+perhaps it is, and evolution wants to stay on the safe side.<p>
+
+I think it is inevitable that the aliens will have these same kinds of
+reactions, for the same reasons.  Aliens will have a strong aversion
+reaction if you put them in front of a chunk of rotting alien flesh, or
+show them an alien with its internal organs on the outside.  Why?
+Because those things are dangerous to aliens, and so all the aliens
+who didn't have that reaction have died long ago of horrible diseases.
+I don't think it's a big step to identify this reaction with
+disgust.<p>
+
+Similarly, aliens might not have eyes, if they come from a place with
+no ambient short-wavelength electromagnetic radiation; say, the
+surface of Jupiter.  But the aliens <i>will</i> have chemical senses,
+analogous to smell and taste, because there are chemicals everywhere.
+Every life form on earth has chemical senses, even down to bacteria.
+This is because you cannot use the Homer Simpson strategy of 
+ingesting everything you encounter; you would quickly die.  (Homer is
+fictitious, or he would be dead long ago.)  You need some way of
+distinguishing which items are food, so that you can eat the things
+that are food and ignore the other things.  So you need to have a
+sense of smell and taste.<p>
+
+What happens when you smell or taste something that is really harmful?
+You had better have some kind of aversion reaction, and you do,
+because all the 18-toed Sirian ghost worms without those reactions ate
+stuff that disagreed with them, and died young; you are the product of
+a long line of ghost worms that do have a sense of smell and feel
+disgust when they wander into a biohazard zone.<p>
+
+We can push this even further.  I conjecture that we can even predict
+some of the aliens' body language.  When presented with something that
+smells bad&mdash;say rotten food&mdash;an alien's response will be to <i>hold
+its nose</i>, if it has an olfactory sense that can be disabled by
+closing the organ off from the outside world.  If the alien asks me
+what I think of Paris Hilton, and I hold my nose, the alien will
+understand that Paris Hilton is being insulted, and will understand
+something of the way in which Paris Hilton is being insulted.
+Chemical senses, I think, must be so universal that even noseless
+aliens will understand the gesture, once the structure and function of
+the human nose is explained to them.  "Oh, I see," says the alien.
+"You have closed off your chemical sense organ so that
+Ms.&nbsp;Hilton's noxious effluvia cannot penetrate.  Yes, I quite
+understand!    Unfortunately, for us it is not possible since our olfactory
+bulbs are distributed throughout our skins.
+But I am sure we have all wanted to do something like that at one time or
+another."<p>
+
+Disgust, being one of the lowest emotions on the mind-body scale, is
+one of the easiest to attribute to the aliens.  Even going a little
+higher is risky.  Will the aliens feel lust?  Quite possibly.  Even a
+giant amoeba that reproduces by fission might feel something akin to
+lust when the time comes, a powerful urge to divide in two.  Will the
+aliens feel anger?  Perhaps, but here we're on shaky ground.<p>
+
+Long ago, I had a conversation with Matthew Stone, in which he told me
+how different cultures have different notions of even apparently
+simple emotions such as rage.  Rage, he said, is characterized by the
+following situation: you want something, but there is some
+insurmountable obstacle to your getting it, and so you are frustrated.
+When you become enraged, your response is to attack the obstacle and
+try to destroy it.<p>
+
+But, said M.&nbsp;Stone, in Polish, when you want something, and there
+is an insurmountable obstacle, and you are frustrated, you do not have
+a fit of rage in which you go nuts and attack the obstacle.  Instead,
+you have a fit of z&#x142;ost, in which you go nuts and attack
+everything around you at random.<p>
+
+Or, in some other culture that I forget, if you want something to
+which there is an insurmountable obstacle, and you are frustrated,
+then you have a fit of some emotion I don't remember the name of, in
+which you go nuts and kill yourself.<p>
+
+These seem to me to be distinctly different from rage, if not
+fundamentally so.  Variations on jealousy are even easier to
+invent.<p>
+
+I don't know how much of all this is true, how much was wrong before
+M.&nbsp;Stone heard it, how much he said that was right but I
+misunderstood, and how much I understood correctly but got wrong
+between then and now.  It might all be nonsense.  But one can still
+get some mileage out of attributing z&#x142;ost, rather than rage, to
+the aliens.<p>
+
+<a href="http://www.nba.com/pacers/dance/index.html"><img border=0
+align=right
+src="http://www.nba.com/media/pacers/pacemates_400_cutout.jpg"></a>
+Embarrassment is another one of the more universal emotions.  I've
+seen my cat act embarrassed, typically when he falls off of a ledge,
+or tries to jump from <i>A</i> to <i>B</i> but only makes it partway,
+and goes splat.  <p>
+
+There's another kind of embarrassment that occurs when you see
+something you shouldn't.  For example, you walk into a room and see
+your mother-in-law putting on her bra.  You are likely to feel
+embarrassed.  What's the connection with the embarrassment you feel
+when you fall off a ledge?  I don't know; I'm not even sure they are
+the same.  Perhaps we need a new word.<p>
+
+The Indiana Pacers basketball team has <a
+href="http://www.nba.com/pacers/dance/index.html">a web site</a> on
+which they list the "most embarrassing moments" of each of their
+cheerleaders, the Pacemates.  (I keep wanting to call them the
+"Pacemakers", but even I know that is wrong.)<p>
+
+When I first planned to discuss this, it was because my random sample
+of responses picked up mostly strange ones, and I was ready to
+conclude that the Pacemates and I were not of the same species.  I
+planned to complain that none of the Pacemates had apparently ever
+farted in public.  But a more thorough survey revealed that the
+Pacemates were much less surprising in their embarrassment than I had
+originally thought.  As embarrassing moments go, you would be
+hard-pressed to find a more typical example than that of falling down
+in the middle of a carefully-choreographed public dance exhibition,
+and that is mostly what they said.   Both I and my cat can understand
+the embarrassment of these mishaps:<p>
+
+<blockquote>
+<a
+href="http://www.nba.com/pacers/dance/pacemate_profile_lindsay_2005.html"><b>Lindsay:</b></a>
+I usually don't get embarrassed, but one time, I did fall off stage at
+a national dance competition.<p>
+
+<a
+href="http://www.nba.com/pacers/dance/pacemate_profile_darcy_2005.html"><b>Darcy:</b></a>
+Last year during Pacers player introductions when the lights were out,
+Boomer ran into me and knocked me down to the floor!<p>
+
+<a
+href="http://www.nba.com/pacers/dance/pacemate_profile_amanda_2005.html"><b>Amanda:</b></a>
+When I was cheering at an IU game, I went back for a back handspring
+and in the middle of Assembly Hall court, I landed flat on my head.<p>
+
+<a
+href="http://www.nba.com/pacers/dance/pacemate_profile_kim_2005.html"><b>Kim:</b></a>
+When I was in sixth grade, I slipped and fell on the ice trying to get
+on the school bus. I had on a skirt and dress shoes and was carrying
+my trumpet!
+</blockquote>
+
+I don't know what the trumpet has to do with it, but my cat and I can
+sympathize with the part about slipping on the ice while trying to
+board the school bus.<p>
+
+I find it rather comforting that the Pacemates are embarrassed by the
+same things that embarrass me or  my cat or both.    I had been
+worried that all the embarrassing moments would be strange and
+puzzling, like this one:<p>
+
+<blockquote>
+<a
+href="http://www.nba.com/pacers/dance/pacemate_profile_ashley_2005.html"><b>Ashley:</b></a>
+Crashing into the back of a trash truck and totaling my car!
+</blockquote>
+
+Items like this had made me wonder if the author and I were using the
+word in the same way.  But for the most part I felt that I could
+understand and empathize, and when I looked at the complete list, I
+was delighted to discover just what I had asked for:<p>
+
+<blockquote> <a
+href="http://www.nba.com/pacers/dance/pacemate_profile_nikki_2005.html"><b>Nikki:</b></a>
+During speech class of my freshman year of college, I was giving a
+speech on the health care industry and I...well, let's just say for
+the rest of the semester, my classmates nicknamed me "Toot-Toot!"  <p>
+</blockquote>
+ 
+There is a crucial scene in Larry Niven's novel <cite>World of
+Ptavvs</cite> about embarrassment among aliens.  Kzanol is an alien
+invader.  In order to escape from Kzanol's telepathic control, the
+protagonist, Larry Greenberg, must understand how the aliens shield
+themselves from each others' commands.  He has access to Kzanol's
+memories, and finds the memory he wants in an episode from Kzanol's
+childhood in which Kzanol involuntarily defecated in front of his
+father's houseguests.  I'm sure that Pacemate Nikki would
+sympathize.<p>
+</p>
+
+<br clear=all>
+<p align="right">
+<i>[<a href="https://blog.plover.com/aliens">Other articles in category /aliens</a>] 
+<a href="https://blog.plover.com/aliens/emotions.html">permanent link</a></i>
+</p>
+
+<br />
+
+  </td>
+
+ </tr>
+
+</table>
+
+</body>
+
+</html>
+

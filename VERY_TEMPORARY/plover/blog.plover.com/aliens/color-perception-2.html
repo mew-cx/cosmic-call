@@ -1,0 +1,504 @@
+<html>
+
+<head>
+<title>The Universe of Discourse : Yellow</title>
+<meta name="referrer" content="always">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://blog.plover.com/index.rss" />
+<link rel="alternate" type="application/atom+xml" title="Atom"
+      href="https://blog.plover.com/index.atom" />
+
+<link rel="me" type="mastodon" href="https://mathstodon.xyz/@mjd"/>
+
+<link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
+<link rel="openid2.local_id" href="https://openid.stackexchange.com/user/1b891001-2f6a-41a9-8754-aeab31dd4599">
+<link rel='icon' sizes="192x192" href='https://pic.blog.plover.com/HOP-192.png' />
+<link rel='icon' sizes="128x128" href='https://pic.blog.plover.com/HOP-128.png' />
+<link rel="apple-touch-icon" sizes="192x192" href="https://pic.blog.plover.com/HOP-192.png">
+<meta property="og:title" content="The Universe of Discourse : Yellow">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pic.blog.plover.com/FIRST_IMAGE_DEFAULT.jpg">
+<meta property="og:url" content="https://blog.plover.com/aliens/color-perception-2.html">
+<!-- REDIRECT: -->
+
+<!-- MathJax -->
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- To enable inlining of $ ... $
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+-->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['!!','!!']]}, // temporary
+  // don't forget that TeX's line break \\ will not work in Markdown!
+  // use \\\\ instead!
+});
+</script>
+
+
+<style>
+pre {
+  overflow: auto;
+  background-color: #e4f0e4;
+  border-top:  1px #d0d0d0 solid;
+  border-left: 1px #d0d0d0 solid;
+  padding: .6em 0;
+}
+
+pre.digression  {
+  background-color: #ffdddd;
+}
+
+table.maintable {
+  table-layout: fixed;
+  width: 100%;
+  border-top: thin solid black;
+  border-bottom: thin solid black;
+}
+
+td.sidebar {
+  padding: 0 0.5em;
+  width: 8em;
+}
+
+td.mainsection {
+  padding: 0 1em;
+  width: 100%;
+}
+
+pre.erroneous  {
+  background-color: #ffdddd;
+}
+
+blockquote {
+  border-top:  1px #d0d0d0 solid;
+  border-left: 1px #d0d0d0 solid;
+  padding: 3px;
+  background-color: #ffeef1;
+}
+
+blockquote blockquote {
+  background-color: #f1d2f1;
+}
+
+blockquote blockquote blockquote {
+  background-color: #bee6f2;
+}
+
+blockquote blockquote blockquote blockquote {
+  background-color: #bee9df;
+}
+
+.emph {
+  color: purple;
+  font-weight: bolder;
+}
+
+.displayImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookbox table          { margin-left:    0.5em;
+                          margin-bottom:  0.5em;
+}
+
+@media print, handheld, screen and (max-device-width: 800px) {
+  .sidebar { display: none; }
+  .bookbox { display: none; }
+}
+
+body,td           { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    color: #222222; }
+a:link               { color: #000066 }
+a:visited            { color: #000066 }
+.sidebar  a:link     { color: #000000 }
+.sidebar  a:visited  { color: #000000 }
+.pagetitle        { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    font-size: xx-large; font-weight: bold; color: #336699; }
+h1.pagetitle { padding: 0; margin: 0; }
+.dateheader       { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    font-size: large; font-weight: bold; color: #336699; }
+.storytitle       { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    font-size: x-large; font-weight: bold; color:
+                    #336699; text-decoration: none; }
+
+
+h2       { font-size: x-large; font-weight: bold; color: #bb4488;
+           font-family: Verdana,Geneva,Arial,Sans-serif;  }
+h3       { font-size: large; color: #996699;
+           font-family: Verdana,Geneva,Arial,Sans-serif;  }
+h4       { font-size: medium; color: #9966ee;
+           font-family: Verdana,Geneva,Arial,Sans-serif;  }
+table.menuitem         { margin-bottom: 2px;  }
+td.menuitem         { font-size: small; background-color: #ccccff;
+           margin-bottom: 2px;  }
+.menuitem a        { font-size: small; text-decoration: none }
+.toc     { font-size: small; background-color: #ccccff; }
+
+img { max-width: 100% }
+img.center { display: block; margin-left: auto; margin-right: auto }
+.caption { text-align: center; display: block; margin-left: auto; margin-right: auto }
+
+
+.spoiler {
+  color: black; background-color: black;
+  border: black thin solid;
+}
+
+.spoiler:hover {
+  color: inherit; background-color: inherit;
+}
+
+span[tooltip] {
+  position: relative;
+#  text-decoration: underline;
+#  color: #00F;
+  cursor: help;
+}
+
+span[tooltip]:hover::after,
+span[tooltip]:focus::after {
+  content: attr(tooltip);
+  position: absolute;
+  left: 0;
+  top: 24px;
+#  min-width: 200px;
+  border: 1px #aaaaaa solid;
+  border-radius: 10px;
+  background-color: #ffffcc;
+  padding: 12px;
+  color: #000000;
+  font-size: 14px;
+  z-index: 1;
+}
+
+@media handheld, screen and (max-device-width: 800px) {
+  .MathJax_Display { overflow-x: scroll; }
+}
+
+</style>
+
+<meta name="google-site-verification"
+      content="XLxterQkreKJ10X-T_OAhtcZfF6si4ZF2vupilmCNEM" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<h1 class="pagetitle">
+<a
+  style="text-decoration: none" href="https://blog.plover.com/">The Universe of Discourse</a>
+</h1>
+
+<table class="maintable" border="0" cellpadding="0" cellspacing="0">
+
+ <tr valign="top">
+
+  <!-- left column -->
+  <td class="sidebar" bgcolor="#6699cc">
+
+   <p>
+   <br />
+   Mark Dominus (&#38518;&#25935;&#20462;)<br />
+   <a href="mailto:mjd@pobox.com">mjd@pobox.com</a> <br />
+   </p>
+
+   <p>
+   <img width=100 height=100 src="https://pic.blog.plover.com/TOP.jpg"><br />
+   </p>
+
+   <p>
+   <a href="https://blog.plover.com/meta/about-me.html">About me</a>
+   </p>
+
+   <p>
+   <a href="https://blog.plover.com/index.rss">RSS</a>
+   <a href="https://blog.plover.com/index.atom">Atom</a>   </p>
+
+
+   <p><a href="https://blog.plover.com/">12 recent entries</a><br>
+  <table class="menuitem" width="100%" style="border-spacing: 0 1px;">
+ <tr><td class="menuitem"><a href="https://blog.plover.com/lang/dummy-prononus.html"><span class=menuitem>Examples of dummy pronouns</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/etym/duckface.html"><span class=menuitem>Duckface in German</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/etym/badugi.html"><span class=menuitem>Dogs that look like board games</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/beep-beep.html"><span class=menuitem>Odd translation choices</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/broth-guzzler.html"><span class=menuitem>More soup-guzzling</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/book/Scrooge.html"><span class=menuitem>Scrooge</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/book/pie-muncher.html"><span class=menuitem>Soup-guzzling pie-munchers</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/book/skin-worms.html"><span class=menuitem>Skin worms?</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/misc/canal.html"><span class=menuitem>Something I didn't know and I bet you didn't either</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/misc/sentences-yuck.html"><span class=menuitem>Two sentences that made me stop to think</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/music/synthpop.html"><span class=menuitem>Synthesizer bands</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/magistral.html"><span class=menuitem>Trans-Siberian Railway</span></a>
+
+  </table>
+</p>
+
+   <p>Archive:<br><table>
+<tr><td><a href="https://blog.plover.com/2021/">2021</a>:
+    <td><a href="https://blog.plover.com/2021/01/">J</a><a href="https://blog.plover.com/2021/02/">F</a><a href="https://blog.plover.com/2021/03/">M</a><a href="https://blog.plover.com/2021/04/">A</a>M<a href="https://blog.plover.com/2021/04/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2021/07/">J</a>
+<tr><td><a href="https://blog.plover.com/2020/">2020</a>:
+    <td><a href="https://blog.plover.com/2020/01/">J</a><a href="https://blog.plover.com/2020/02/">F</a><a href="https://blog.plover.com/2020/03/">M</a><a href="https://blog.plover.com/2020/04/">A</a><a href="https://blog.plover.com/2020/05/">M</a><a href="https://blog.plover.com/2020/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2020/07/">J</a><a href="https://blog.plover.com/2020/08/">A</a><a href="https://blog.plover.com/2020/09/">S</a><a href="https://blog.plover.com/2020/10/">O</a><a href="https://blog.plover.com/2020/11/">N</a><a href="https://blog.plover.com/2020/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2019/">2019</a>:
+<td><a href="https://blog.plover.com/2019/01/">J</a>F<a href="https://blog.plover.com/2019/03/">M</a><a href="https://blog.plover.com/2019/04/">A</a><a href="https://blog.plover.com/2019/05/">M</a><a href="https://blog.plover.com/2019/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2019/07/">J</a><a href="https://blog.plover.com/2019/08/">A</a><a href="https://blog.plover.com/2019/09/">S</a><a href="https://blog.plover.com/2019/10/">O</a><a href="https://blog.plover.com/2019/11/">N</a><a href="https://blog.plover.com/2019/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2018/">2018</a>:
+<td><a href="https://blog.plover.com/2018/01/">J</a><a href="https://blog.plover.com/2018/02/">F</a><a href="https://blog.plover.com/2018/03/">M</a><a href="https://blog.plover.com/2018/04/">A</a><a href="https://blog.plover.com/2018/05/">M</a><a href="https://blog.plover.com/2018/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2018/07/">J</a><a href="https://blog.plover.com/2018/08/">A</a><a href="https://blog.plover.com/2018/09/">S</a><a href="https://blog.plover.com/2018/10/">O</a><a href="https://blog.plover.com/2018/11/">N</a><a href="https://blog.plover.com/2018/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2017/">2017</a>:
+<td><a href="https://blog.plover.com/2017/01/">J</a><a href="https://blog.plover.com/2017/02/">F</a><a href="https://blog.plover.com/2017/03/">M</a><a href="https://blog.plover.com/2017/04/">A</a><a href="https://blog.plover.com/2017/05/">M</a><a href="https://blog.plover.com/2017/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2017/07/">J</a><a href="https://blog.plover.com/2017/08/">A</a><a href="https://blog.plover.com/2017/09/">S</a><a href="https://blog.plover.com/2017/10/">O</a></a><a href="https://blog.plover.com/2017/11/">N</a><a href="https://blog.plover.com/2017/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2016/">2016</a>:
+<td>J<a href="https://blog.plover.com/2016/02/">F</a><a href="https://blog.plover.com/2016/03/">M</a><a href="https://blog.plover.com/2016/04/">A</a><a href="https://blog.plover.com/2016/05/">M</a><a href="https://blog.plover.com/2016/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2016/07/">J</a>ASO<a href="https://blog.plover.com/2016/11/">N</a><a href="https://blog.plover.com/2016/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2015/">2015</a>:
+<td>JF<a href="https://blog.plover.com/2015/03/">M</a><a href="https://blog.plover.com/2015/04/">A</a><a href="https://blog.plover.com/2015/05/">M</a><a href="https://blog.plover.com/2015/06/">J</a><tr><td>&nbsp;<td><a href="https://blog.plover.com/2015/07/">J</a><a href="https://blog.plover.com/2015/08/">A</a><a href="https://blog.plover.com/2015/09/">S</a><a href="https://blog.plover.com/2015/10/">O</a><a href="https://blog.plover.com/2015/11/">N</a><a href="https://blog.plover.com/2015/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2014/">2014</a>:
+<td><a href="https://blog.plover.com/2014/01/">J</a><a href="https://blog.plover.com/2014/02/">F</a><a href="https://blog.plover.com/2014/03/">M</a><a href="https://blog.plover.com/2014/04/">A</a>MJ<tr><td>&nbsp;<td><a href="https://blog.plover.com/2014/07/">J</a>ASO<a href="https://blog.plover.com/2014/11/">N</a><a href="https://blog.plover.com/2014/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2013/">2013</a>:
+<td>JFMAMJ<tr><td>&nbsp;<td><a href="https://blog.plover.com/2013/07/">J</a>A<a href="https://blog.plover.com/2013/09/">S</a><a href="https://blog.plover.com/2013/10/">O</a>N<a href="https://blog.plover.com/2013/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2012/">2012</a>:
+<td><a href="https://blog.plover.com/2012/01/">J</a><a href="https://blog.plover.com/2012/02/">F</a><a href="https://blog.plover.com/2012/03/">M</a>AMJ
+<tr><td>&nbsp;<td>J<a href="https://blog.plover.com/2010/08/">A</a>SON<a href="https://blog.plover.com/2012/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2011/">2011</a>:
+<td>JFMA<a href="https://blog.plover.com/2011/05/">M</a><a href="https://blog.plover.com/2011/06/">J</a>
+<tr><td>&nbsp;<td>JASO<a href="https://blog.plover.com/2011/11/">N</a>D
+<tr><td><a href="https://blog.plover.com/2010/">2010</a>:
+<td><a href="https://blog.plover.com/2010/01/">J</a>FMAMJ
+<tr><td>&nbsp;<td>J<a href="https://blog.plover.com/2010/08/">A</a><a href="https://blog.plover.com/2010/09/">S</a><a href="https://blog.plover.com/2010/10/">O</a><a href="https://blog.plover.com/2010/11/">N</a>D
+<tr><td><a href="https://blog.plover.com/2009/">2009</a>:
+<td><a href="https://blog.plover.com/2009/01/">J</a><a href="https://blog.plover.com/2009/02/">F</a><a href="https://blog.plover.com/2009/03/">M</a>A<a href="https://blog.plover.com/2009/05/">M</a><a href="https://blog.plover.com/2009/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2009/07/">J</a>A<a href="https://blog.plover.com/2009/09/">S</a>ON<a href="https://blog.plover.com/2009/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2008/">2008</a>:
+<td><a href="https://blog.plover.com/2008/01/">J</a><a href="https://blog.plover.com/2008/02/">F</a><a href="https://blog.plover.com/2008/03/">M</a><a href="https://blog.plover.com/2008/04/">A</a><a href="https://blog.plover.com/2008/05/">M</a><a href="https://blog.plover.com/2008/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2008/07/">J</a>A<a href="https://blog.plover.com/2008/09/">S</a><a href="https://blog.plover.com/2008/10/">O</a><a href="https://blog.plover.com/2008/11/">N</a>D
+<tr><td><a href="https://blog.plover.com/2007/">2007</a>:
+<td><a href="https://blog.plover.com/2007/01/">J</a><a href="https://blog.plover.com/2007/02/">F</a><a href="https://blog.plover.com/2007/03/">M</a><a href="https://blog.plover.com/2007/04/">A</a><a href="https://blog.plover.com/2007/05/">M</a><a href="https://blog.plover.com/2007/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2007/07/">J</a><a href="https://blog.plover.com/2007/08/">A</a><a href="https://blog.plover.com/2007/09/">S</a><a href="https://blog.plover.com/2007/10/">O</a><a href="https://blog.plover.com/2007/11/">N</a><a href="https://blog.plover.com/2007/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2006/">2006</a>:
+<td><a href="https://blog.plover.com/2006/01/">J</a><a href="https://blog.plover.com/2006/02/">F</a><a
+href="https://blog.plover.com/2006/03/">M</a><a href="https://blog.plover.com/2006/04/">A</a><a
+href="https://blog.plover.com/2006/05/">M</a><a href="https://blog.plover.com/2006/06/">J</a>
+<tr><td>&nbsp;<td> <a href="https://blog.plover.com/2006/07/">J</a>A<a
+href="https://blog.plover.com/2006/09/">S</a><a
+href="https://blog.plover.com/2006/10/">O</a><a
+href="https://blog.plover.com/2006/11/">N</a><a
+href="https://blog.plover.com/2006/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2005/">2005</a>: <td><a
+href="https://blog.plover.com/2005/10/">O</a><a href="https://blog.plover.com/2005/11/">N</a><a
+href="https://blog.plover.com/2005/12/">D</a>
+</table>
+<br>
+</p>
+
+
+
+<hr>
+Subtopics:<br>
+<p><table width="100%" style="border-spacing: 0 1px;"  class='menuitem'><tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/math/">Mathematics</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">191</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/prog/">Programming</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">79</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/lang/">Language</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">67</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/misc/">Misc</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">48</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/book/">Book</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">43</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/tech/">Tech</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">36</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/oops/">Oops</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">27</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/aliens/dd/">Cosmic Call</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">25</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/Unix/">Unix</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">23</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/prog/haskell/">Haskell</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">22</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/physics/">Physics</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">21</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/lang/etym/">Etymology</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">19</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/law/">Law</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">16</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/prog/perl/">Perl</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">16</tr>
+</table>
+</p>
+
+   <p>
+   <img alt="" src="https://pic.blog.plover.com/buttons/mjd-universe.png"
+   border="0" vspace=1 /></a>
+   <a href="http://hop.perl.plover.com/"><img alt="Higher-Order Perl"
+   src="https://pic.blog.plover.com/buttons/HOP-BUTTON.png" border="0" vspace=1 /></a>
+   <a href="http://blosxom.sourceforge.net/"><img alt="Blosxom"
+   src="https://pic.blog.plover.com/buttons/blosxom-sux.png" border="0" vspace=1 /></a>
+   </p>
+
+<!--  <a href="http://www.blosxom.com/"><img alt="Blosxom" rc="http://www.blosxom.com/images/pb_blosxom.gif" border="1" hspace="3" vspace="3" /></a>-->
+   </p>
+
+<!--  <p>  </p> -->
+
+<!--  <p><a href="http://technorati.com/claim/hzrgjnktrw">Technorati Profile</a></p> -->
+
+  <p><span style="font-size: small; background-color: #ccccff; padding: 2px;">Comments disabled</span></p>
+  </td>
+
+  <!-- main blog entry column -->
+  <td class="mainsection" bgcolor="#f3f3f3">
+
+   <br />
+
+<span class="dateheader">Thu, 27 Apr 2006</span>
+<p>
+<a class="storytitle" name="color-perception-2" href="https://blog.plover.com/aliens/color-perception-2.html">Yellow</a>
+<br />
+
+Most of the academic part of high school is mercifully gone from my
+memory, dissolved together into a uniform blur of dullness.  <a
+href="https://blog.plover.com/crazy-questions.html">I wrote recently</a> about one
+question I remember fondly from one final exam.  I only remember a few
+specific exam questions, and probably that is the only one I remember
+because it was such a good question.<p>
+
+The one exam question that sticks most clearly in my mind was from my
+eighth-grade science class: What color do you see if you look at a
+yellow light through a monochromatic red filter?<p>
+
+I said it would look red, and was marked wrong.  I argued my answer
+with the teacher, Mr.&nbsp;Goodman, but he would not give me credit.
+I puzzled over this for a long time, and eventually understood what
+had happened.<p>
+
+The word "yellow" is not a designation of physics alone; it refers to
+a certain experience, and is a perceptual phenomenon, not a purely
+physical one.  It's possible to phrase the question to avoid this, but
+the question was not phrased in that way; it was expressly phrased in
+perceptual terms.  A person who was achromatopsic might see a yellow
+light through a monochomatic red filter in a very unusual way.<p>
+
+To bring up the possibility of achromatopsia in the context of an exam
+is just nitpicking; I mention it only to point out  that the question,
+as posed, must involve a consideration of human perception.  And the
+objection I raised at the time is certainly not just nitpicking,
+because there are two entirely different physical phenomena that both
+go by the name of "yellow".  The confusion of these two things occurs
+in the human retina.<p>
+
+The perception of color is a very complicated business, and I can't
+explain it in complete detail today.  Partly this is because it isn't
+understood in complete detail, partly because I don't know everything
+that is understood, and partly it is because this article is about
+something else, and I want to try to come to the point eventually.  So
+all my assertions about color perception in this article should be
+taken as metaphors for what is really happening.  Although they give a
+correct general idea of a perceptual process that is something like
+what actually occurs, they are not accurate and are not intended to be
+accurate.<p>
+
+With that warning in place, I will now explain human color perception.
+Color is sensed by special "cone cells" in the retina.  Different cone
+cells are sensitive to different frequencies of photons.  Cone cells
+come in three types, which we will call "red", "green", and "blue",
+although all three of these are misnomers to one degree or another.
+The "red" cone cells are sensitive to red and yellow photons; the
+"green" cone cells to yellow and green photons.  We will ignore the
+blue cones.<p>
+
+Photons with a wavelength of around 570 nanometers stimulate both the
+red and the green cone cells, and this stimulation is eventually
+perceived as the color yellow.  But you can stimulate the cone cells
+the same way without using any light with a frequency around 570 nm.
+If you bombard the retina with photons of 650 nm, you stimulate only
+the red cones, and the light looks red; if you bombard the retina with
+photons of 520 nm, you stimulate only the green cones, and the light
+looks green.  If you bombard the retina with both kinds of photons at
+once, both the red and green cones are stimulated, just as they were
+by the 570 nm photons.  They have no way to know that they are being
+stimulated by two different groups of photons instead of by the same
+group, so the perception is the same.<p>
+
+This is why your computer monitor and your television can display the
+color yellow, despite having no source of yellow light.  The monitor
+has little red phosphors and little green phosphors.  When it
+activates both of them at once, the red and green photons stream out
+and get into your eye, where they stimulate the red and green cones,
+and you perceive the color yellow.<p>
+
+But from a purely physical point of view, this "yellow" phenomenon is
+not at all like the one that occurs when you look at a lemon or at a
+sodium vapor street light.  The photons coming off the lemon are 
+all of about the same frequency, around 570 nm.  The photons coming
+off the computer monitor picture of the lemon are two different
+frequencies, some around 520 nm, and some around 650 nm.  Your eye is
+not equipped to tell the difference.<p>
+
+Now, suppose you are looking at "yellow light" through a monochromatic
+red filter that passes only 650 nm photons.  What do you see?<p>
+
+Well, if it was monochomatic yellow light, say from a lemon, then you
+see nothing, because the filter stops the 570 nm photons.  This was
+Mr.&nbsp;Goodman's exam answer.<p>
+
+But if it was the yellow light that comes from a television picture of
+a lemon, then it contains some 520 nm photons, which are stopped by
+the filter, and some 650 nm photons, which are <i>not</i> stopped.
+You would see a red lemon.  This was my exam answer.<p>
+
+The perception of mixed red and green light as yellow was part of the
+curriculum that year---we had had a classroom demonstration of
+it---and so it was fair game for the exam.  Mr.&nbsp;Goodman's exam
+question, as posed, was genuinely ambiguous.  There are two physical
+phenomena that are both described as "yellow", and he could have meant
+either one.<p>
+
+This confusion of two distinct physical phenomena by the retina is
+something we take for granted, but it is by no means inevitable.  I
+often imagine our meeting with the aliens, and their surprise when
+they learn that all of us, every human on earth, are color-blind.
+They will find this out quickly, as soon as they see a television or a
+computer monitor.  "Your monitor is broken," Zxaxgr will say.  <p>
+
+"It looks all right to me," replies Flash Gordon. <p>
+
+"Is there something wrong with your eyes?  The color adjustment
+for yellow is completely off.  It is coming out as redgreen instead of
+as yellow."  <p>
+
+"I see nothing wrong with the color adjustment for yellow," replies Flash.<p>
+
+"There <i>must</i> be something wrong with your eyes."<p>
+
+And yes, Zxaxgr is right.  There is something wrong with our
+eyes. There is an intrinsic design flaw in our computer monitors,
+none of which can display yellow, and we don't care, because
+none of us can tell the difference between redgreen and yellow.  <p>
+
+To empathize with Zxaxgr's puzzlement, imagine how strange it would be
+to learn that the alien televisions cannot display green; they display
+purple instead: purple trees, purple broccoli, purple frogs, purple
+flags of Saudi Arabia.  And the aliens have never noticed the problem.
+You want to ask them about it, but your English-to-Alien dictionary
+doesn't have an entry for "purple".  When you ask them about it, they
+say you're nuts, everything looks green, as it should.  
+You learn that they have no word for purple; they just call it
+green, and eventually you find out that it's because they can't tell
+the difference between purple and green.<p>
+
+Whatever you're thinking now, that's what Zxaxgr is going to think.<p>
+</p>
+
+<br clear=all>
+<p align="right">
+<i>[<a href="https://blog.plover.com/aliens">Other articles in category /aliens</a>] 
+<a href="https://blog.plover.com/aliens/color-perception-2.html">permanent link</a></i>
+</p>
+
+<br />
+
+  </td>
+
+ </tr>
+
+</table>
+
+</body>
+
+</html>
+

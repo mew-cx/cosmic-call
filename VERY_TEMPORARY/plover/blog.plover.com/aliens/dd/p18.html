@@ -1,0 +1,471 @@
+<html>
+
+<head>
+<title>The Universe of Discourse : A message to the aliens, part 18/23 (cell respiration and division)</title>
+<meta name="referrer" content="always">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://blog.plover.com/index.rss" />
+<link rel="alternate" type="application/atom+xml" title="Atom"
+      href="https://blog.plover.com/index.atom" />
+
+<link rel="me" type="mastodon" href="https://mathstodon.xyz/@mjd"/>
+
+<link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
+<link rel="openid2.local_id" href="https://openid.stackexchange.com/user/1b891001-2f6a-41a9-8754-aeab31dd4599">
+<link rel='icon' sizes="192x192" href='https://pic.blog.plover.com/HOP-192.png' />
+<link rel='icon' sizes="128x128" href='https://pic.blog.plover.com/HOP-128.png' />
+<link rel="apple-touch-icon" sizes="192x192" href="https://pic.blog.plover.com/HOP-192.png">
+<meta property="og:title" content="The Universe of Discourse : A message to the aliens, part 18/23 (cell respiration and division)">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://pic.blog.plover.com/aliens/dd/png/p18.png">
+<meta property="og:url" content="https://blog.plover.com/aliens/dd/p18.html">
+<!-- REDIRECT: -->
+
+<!-- MathJax -->
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- To enable inlining of $ ... $
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+-->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['!!','!!']]}, // temporary
+  // don't forget that TeX's line break \\ will not work in Markdown!
+  // use \\\\ instead!
+});
+</script>
+
+
+<style>
+pre {
+  overflow: auto;
+  background-color: #e4f0e4;
+  border-top:  1px #d0d0d0 solid;
+  border-left: 1px #d0d0d0 solid;
+  padding: .6em 0;
+}
+
+pre.digression  {
+  background-color: #ffdddd;
+}
+
+table.maintable {
+  table-layout: fixed;
+  width: 100%;
+  border-top: thin solid black;
+  border-bottom: thin solid black;
+}
+
+td.sidebar {
+  padding: 0 0.5em;
+  width: 8em;
+}
+
+td.mainsection {
+  padding: 0 1em;
+  width: 100%;
+}
+
+pre.erroneous  {
+  background-color: #ffdddd;
+}
+
+blockquote {
+  border-top:  1px #d0d0d0 solid;
+  border-left: 1px #d0d0d0 solid;
+  padding: 3px;
+  background-color: #ffeef1;
+}
+
+blockquote blockquote {
+  background-color: #f1d2f1;
+}
+
+blockquote blockquote blockquote {
+  background-color: #bee6f2;
+}
+
+blockquote blockquote blockquote blockquote {
+  background-color: #bee9df;
+}
+
+.emph {
+  color: purple;
+  font-weight: bolder;
+}
+
+.displayImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bookbox table          { margin-left:    0.5em;
+                          margin-bottom:  0.5em;
+}
+
+@media print, handheld, screen and (max-device-width: 800px) {
+  .sidebar { display: none; }
+  .bookbox { display: none; }
+}
+
+body,td           { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    color: #222222; }
+a:link               { color: #000066 }
+a:visited            { color: #000066 }
+.sidebar  a:link     { color: #000000 }
+.sidebar  a:visited  { color: #000000 }
+.pagetitle        { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    font-size: xx-large; font-weight: bold; color: #336699; }
+h1.pagetitle { padding: 0; margin: 0; }
+.dateheader       { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    font-size: large; font-weight: bold; color: #336699; }
+.storytitle       { font-family: Verdana,Geneva,Arial,Sans-serif;
+                    font-size: x-large; font-weight: bold; color:
+                    #336699; text-decoration: none; }
+
+
+h2       { font-size: x-large; font-weight: bold; color: #bb4488;
+           font-family: Verdana,Geneva,Arial,Sans-serif;  }
+h3       { font-size: large; color: #996699;
+           font-family: Verdana,Geneva,Arial,Sans-serif;  }
+h4       { font-size: medium; color: #9966ee;
+           font-family: Verdana,Geneva,Arial,Sans-serif;  }
+table.menuitem         { margin-bottom: 2px;  }
+td.menuitem         { font-size: small; background-color: #ccccff;
+           margin-bottom: 2px;  }
+.menuitem a        { font-size: small; text-decoration: none }
+.toc     { font-size: small; background-color: #ccccff; }
+
+img { max-width: 100% }
+img.center { display: block; margin-left: auto; margin-right: auto }
+.caption { text-align: center; display: block; margin-left: auto; margin-right: auto }
+
+
+.spoiler {
+  color: black; background-color: black;
+  border: black thin solid;
+}
+
+.spoiler:hover {
+  color: inherit; background-color: inherit;
+}
+
+span[tooltip] {
+  position: relative;
+#  text-decoration: underline;
+#  color: #00F;
+  cursor: help;
+}
+
+span[tooltip]:hover::after,
+span[tooltip]:focus::after {
+  content: attr(tooltip);
+  position: absolute;
+  left: 0;
+  top: 24px;
+#  min-width: 200px;
+  border: 1px #aaaaaa solid;
+  border-radius: 10px;
+  background-color: #ffffcc;
+  padding: 12px;
+  color: #000000;
+  font-size: 14px;
+  z-index: 1;
+}
+
+@media handheld, screen and (max-device-width: 800px) {
+  .MathJax_Display { overflow-x: scroll; }
+}
+
+</style>
+
+<meta name="google-site-verification"
+      content="XLxterQkreKJ10X-T_OAhtcZfF6si4ZF2vupilmCNEM" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<h1 class="pagetitle">
+<a
+  style="text-decoration: none" href="https://blog.plover.com/">The Universe of Discourse</a>
+</h1>
+
+<table class="maintable" border="0" cellpadding="0" cellspacing="0">
+
+ <tr valign="top">
+
+  <!-- left column -->
+  <td class="sidebar" bgcolor="#6699cc">
+
+   <p>
+   <br />
+   Mark Dominus (&#38518;&#25935;&#20462;)<br />
+   <a href="mailto:mjd@pobox.com">mjd@pobox.com</a> <br />
+   </p>
+
+   <p>
+   <img width=100 height=100 src="https://pic.blog.plover.com/TOP.jpg"><br />
+   </p>
+
+   <p>
+   <a href="https://blog.plover.com/meta/about-me.html">About me</a>
+   </p>
+
+   <p>
+   <a href="https://blog.plover.com/index.rss">RSS</a>
+   <a href="https://blog.plover.com/index.atom">Atom</a>   </p>
+
+
+   <p><a href="https://blog.plover.com/">12 recent entries</a><br>
+  <table class="menuitem" width="100%" style="border-spacing: 0 1px;">
+ <tr><td class="menuitem"><a href="https://blog.plover.com/lang/dummy-prononus.html"><span class=menuitem>Examples of dummy pronouns</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/etym/duckface.html"><span class=menuitem>Duckface in German</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/etym/badugi.html"><span class=menuitem>Dogs that look like board games</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/beep-beep.html"><span class=menuitem>Odd translation choices</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/broth-guzzler.html"><span class=menuitem>More soup-guzzling</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/book/Scrooge.html"><span class=menuitem>Scrooge</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/book/pie-muncher.html"><span class=menuitem>Soup-guzzling pie-munchers</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/book/skin-worms.html"><span class=menuitem>Skin worms?</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/misc/canal.html"><span class=menuitem>Something I didn't know and I bet you didn't either</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/misc/sentences-yuck.html"><span class=menuitem>Two sentences that made me stop to think</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/music/synthpop.html"><span class=menuitem>Synthesizer bands</span></a>
+<tr><td class="menuitem"><a href="https://blog.plover.com/lang/magistral.html"><span class=menuitem>Trans-Siberian Railway</span></a>
+
+  </table>
+</p>
+
+   <p>Archive:<br><table>
+<tr><td><a href="https://blog.plover.com/2021/">2021</a>:
+    <td><a href="https://blog.plover.com/2021/01/">J</a><a href="https://blog.plover.com/2021/02/">F</a><a href="https://blog.plover.com/2021/03/">M</a><a href="https://blog.plover.com/2021/04/">A</a>M<a href="https://blog.plover.com/2021/04/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2021/07/">J</a>
+<tr><td><a href="https://blog.plover.com/2020/">2020</a>:
+    <td><a href="https://blog.plover.com/2020/01/">J</a><a href="https://blog.plover.com/2020/02/">F</a><a href="https://blog.plover.com/2020/03/">M</a><a href="https://blog.plover.com/2020/04/">A</a><a href="https://blog.plover.com/2020/05/">M</a><a href="https://blog.plover.com/2020/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2020/07/">J</a><a href="https://blog.plover.com/2020/08/">A</a><a href="https://blog.plover.com/2020/09/">S</a><a href="https://blog.plover.com/2020/10/">O</a><a href="https://blog.plover.com/2020/11/">N</a><a href="https://blog.plover.com/2020/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2019/">2019</a>:
+<td><a href="https://blog.plover.com/2019/01/">J</a>F<a href="https://blog.plover.com/2019/03/">M</a><a href="https://blog.plover.com/2019/04/">A</a><a href="https://blog.plover.com/2019/05/">M</a><a href="https://blog.plover.com/2019/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2019/07/">J</a><a href="https://blog.plover.com/2019/08/">A</a><a href="https://blog.plover.com/2019/09/">S</a><a href="https://blog.plover.com/2019/10/">O</a><a href="https://blog.plover.com/2019/11/">N</a><a href="https://blog.plover.com/2019/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2018/">2018</a>:
+<td><a href="https://blog.plover.com/2018/01/">J</a><a href="https://blog.plover.com/2018/02/">F</a><a href="https://blog.plover.com/2018/03/">M</a><a href="https://blog.plover.com/2018/04/">A</a><a href="https://blog.plover.com/2018/05/">M</a><a href="https://blog.plover.com/2018/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2018/07/">J</a><a href="https://blog.plover.com/2018/08/">A</a><a href="https://blog.plover.com/2018/09/">S</a><a href="https://blog.plover.com/2018/10/">O</a><a href="https://blog.plover.com/2018/11/">N</a><a href="https://blog.plover.com/2018/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2017/">2017</a>:
+<td><a href="https://blog.plover.com/2017/01/">J</a><a href="https://blog.plover.com/2017/02/">F</a><a href="https://blog.plover.com/2017/03/">M</a><a href="https://blog.plover.com/2017/04/">A</a><a href="https://blog.plover.com/2017/05/">M</a><a href="https://blog.plover.com/2017/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2017/07/">J</a><a href="https://blog.plover.com/2017/08/">A</a><a href="https://blog.plover.com/2017/09/">S</a><a href="https://blog.plover.com/2017/10/">O</a></a><a href="https://blog.plover.com/2017/11/">N</a><a href="https://blog.plover.com/2017/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2016/">2016</a>:
+<td>J<a href="https://blog.plover.com/2016/02/">F</a><a href="https://blog.plover.com/2016/03/">M</a><a href="https://blog.plover.com/2016/04/">A</a><a href="https://blog.plover.com/2016/05/">M</a><a href="https://blog.plover.com/2016/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2016/07/">J</a>ASO<a href="https://blog.plover.com/2016/11/">N</a><a href="https://blog.plover.com/2016/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2015/">2015</a>:
+<td>JF<a href="https://blog.plover.com/2015/03/">M</a><a href="https://blog.plover.com/2015/04/">A</a><a href="https://blog.plover.com/2015/05/">M</a><a href="https://blog.plover.com/2015/06/">J</a><tr><td>&nbsp;<td><a href="https://blog.plover.com/2015/07/">J</a><a href="https://blog.plover.com/2015/08/">A</a><a href="https://blog.plover.com/2015/09/">S</a><a href="https://blog.plover.com/2015/10/">O</a><a href="https://blog.plover.com/2015/11/">N</a><a href="https://blog.plover.com/2015/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2014/">2014</a>:
+<td><a href="https://blog.plover.com/2014/01/">J</a><a href="https://blog.plover.com/2014/02/">F</a><a href="https://blog.plover.com/2014/03/">M</a><a href="https://blog.plover.com/2014/04/">A</a>MJ<tr><td>&nbsp;<td><a href="https://blog.plover.com/2014/07/">J</a>ASO<a href="https://blog.plover.com/2014/11/">N</a><a href="https://blog.plover.com/2014/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2013/">2013</a>:
+<td>JFMAMJ<tr><td>&nbsp;<td><a href="https://blog.plover.com/2013/07/">J</a>A<a href="https://blog.plover.com/2013/09/">S</a><a href="https://blog.plover.com/2013/10/">O</a>N<a href="https://blog.plover.com/2013/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2012/">2012</a>:
+<td><a href="https://blog.plover.com/2012/01/">J</a><a href="https://blog.plover.com/2012/02/">F</a><a href="https://blog.plover.com/2012/03/">M</a>AMJ
+<tr><td>&nbsp;<td>J<a href="https://blog.plover.com/2010/08/">A</a>SON<a href="https://blog.plover.com/2012/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2011/">2011</a>:
+<td>JFMA<a href="https://blog.plover.com/2011/05/">M</a><a href="https://blog.plover.com/2011/06/">J</a>
+<tr><td>&nbsp;<td>JASO<a href="https://blog.plover.com/2011/11/">N</a>D
+<tr><td><a href="https://blog.plover.com/2010/">2010</a>:
+<td><a href="https://blog.plover.com/2010/01/">J</a>FMAMJ
+<tr><td>&nbsp;<td>J<a href="https://blog.plover.com/2010/08/">A</a><a href="https://blog.plover.com/2010/09/">S</a><a href="https://blog.plover.com/2010/10/">O</a><a href="https://blog.plover.com/2010/11/">N</a>D
+<tr><td><a href="https://blog.plover.com/2009/">2009</a>:
+<td><a href="https://blog.plover.com/2009/01/">J</a><a href="https://blog.plover.com/2009/02/">F</a><a href="https://blog.plover.com/2009/03/">M</a>A<a href="https://blog.plover.com/2009/05/">M</a><a href="https://blog.plover.com/2009/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2009/07/">J</a>A<a href="https://blog.plover.com/2009/09/">S</a>ON<a href="https://blog.plover.com/2009/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2008/">2008</a>:
+<td><a href="https://blog.plover.com/2008/01/">J</a><a href="https://blog.plover.com/2008/02/">F</a><a href="https://blog.plover.com/2008/03/">M</a><a href="https://blog.plover.com/2008/04/">A</a><a href="https://blog.plover.com/2008/05/">M</a><a href="https://blog.plover.com/2008/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2008/07/">J</a>A<a href="https://blog.plover.com/2008/09/">S</a><a href="https://blog.plover.com/2008/10/">O</a><a href="https://blog.plover.com/2008/11/">N</a>D
+<tr><td><a href="https://blog.plover.com/2007/">2007</a>:
+<td><a href="https://blog.plover.com/2007/01/">J</a><a href="https://blog.plover.com/2007/02/">F</a><a href="https://blog.plover.com/2007/03/">M</a><a href="https://blog.plover.com/2007/04/">A</a><a href="https://blog.plover.com/2007/05/">M</a><a href="https://blog.plover.com/2007/06/">J</a>
+<tr><td>&nbsp;<td><a href="https://blog.plover.com/2007/07/">J</a><a href="https://blog.plover.com/2007/08/">A</a><a href="https://blog.plover.com/2007/09/">S</a><a href="https://blog.plover.com/2007/10/">O</a><a href="https://blog.plover.com/2007/11/">N</a><a href="https://blog.plover.com/2007/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2006/">2006</a>:
+<td><a href="https://blog.plover.com/2006/01/">J</a><a href="https://blog.plover.com/2006/02/">F</a><a
+href="https://blog.plover.com/2006/03/">M</a><a href="https://blog.plover.com/2006/04/">A</a><a
+href="https://blog.plover.com/2006/05/">M</a><a href="https://blog.plover.com/2006/06/">J</a>
+<tr><td>&nbsp;<td> <a href="https://blog.plover.com/2006/07/">J</a>A<a
+href="https://blog.plover.com/2006/09/">S</a><a
+href="https://blog.plover.com/2006/10/">O</a><a
+href="https://blog.plover.com/2006/11/">N</a><a
+href="https://blog.plover.com/2006/12/">D</a>
+<tr><td><a href="https://blog.plover.com/2005/">2005</a>: <td><a
+href="https://blog.plover.com/2005/10/">O</a><a href="https://blog.plover.com/2005/11/">N</a><a
+href="https://blog.plover.com/2005/12/">D</a>
+</table>
+<br>
+</p>
+
+
+
+<hr>
+Subtopics:<br>
+<p><table width="100%" style="border-spacing: 0 1px;"  class='menuitem'><tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/math/">Mathematics</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">191</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/prog/">Programming</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">79</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/lang/">Language</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">67</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/misc/">Misc</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">48</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/book/">Book</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">43</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/tech/">Tech</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">36</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/oops/">Oops</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">27</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/aliens/dd/">Cosmic Call</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">25</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/Unix/">Unix</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">23</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/prog/haskell/">Haskell</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">22</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/physics/">Physics</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">21</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/lang/etym/">Etymology</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">19</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/law/">Law</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">16</tr>
+<tr><td bgcolor="#ccccff" class="menuitem" style="padding-right: 0;"><a href="/prog/perl/">Perl</a><td align='right' bgcolor="#ccccff" class="menuitem" style="padding-left: 0;">16</tr>
+</table>
+</p>
+
+   <p>
+   <img alt="" src="https://pic.blog.plover.com/buttons/mjd-universe.png"
+   border="0" vspace=1 /></a>
+   <a href="http://hop.perl.plover.com/"><img alt="Higher-Order Perl"
+   src="https://pic.blog.plover.com/buttons/HOP-BUTTON.png" border="0" vspace=1 /></a>
+   <a href="http://blosxom.sourceforge.net/"><img alt="Blosxom"
+   src="https://pic.blog.plover.com/buttons/blosxom-sux.png" border="0" vspace=1 /></a>
+   </p>
+
+<!--  <a href="http://www.blosxom.com/"><img alt="Blosxom" rc="http://www.blosxom.com/images/pb_blosxom.gif" border="1" hspace="3" vspace="3" /></a>-->
+   </p>
+
+<!--  <p>  </p> -->
+
+<!--  <p><a href="http://technorati.com/claim/hzrgjnktrw">Technorati Profile</a></p> -->
+
+  <p><span style="font-size: small; background-color: #ccccff; padding: 2px;">Comments disabled</span></p>
+  </td>
+
+  <!-- main blog entry column -->
+  <td class="mainsection" bgcolor="#f3f3f3">
+
+   <br />
+
+<span class="dateheader">Mon, 02 Nov 2015</span>
+<p>
+<a class="storytitle" name="p18" href="https://blog.plover.com/aliens/dd/p18.html">A message to the aliens, part 18/23 (cell respiration and division)</a>
+<br />
+<p>Earlier articles: 
+<a href="https://blog.plover.com/aliens/dd/intro.html">Introduction</a>
+<a href="https://blog.plover.com/aliens/dd/p00.html">Common features</a>
+<a href="https://blog.plover.com/aliens/dd/p01.html">Page 1 (numerals)</a>
+<a href="https://blog.plover.com/aliens/dd/p02.html">Page 2 (arithmetic)</a>
+<a href="https://blog.plover.com/aliens/dd/p03.html">Page 3 (exponents)</a>
+<a href="https://blog.plover.com/aliens/dd/p04.html">Page 4 (algebra)</a>
+<a href="https://blog.plover.com/aliens/dd/p05.html">Page 5 (geometry)</a>
+<a href="https://blog.plover.com/aliens/dd/p06.html">Page 6 (chemistry)</a>
+<a href="https://blog.plover.com/aliens/dd/p07.html">Page 7 (mass)</a>
+<a href="https://blog.plover.com/aliens/dd/p08.html">Page 8 (time and space)</a>
+<a href="https://blog.plover.com/aliens/dd/p09.html">Page 9 (physical units)</a>
+<a href="https://blog.plover.com/aliens/dd/p10.html">Page 10 (temperature)</a>
+<a href="https://blog.plover.com/aliens/dd/p11.html">Page 11 (solar system)</a>
+<a href="https://blog.plover.com/aliens/dd/p12.html">Page 12 (Earth-Moon system)</a>
+<a href="https://blog.plover.com/aliens/dd/p13.html">Page 13 (days, months, and years)</a>
+<a href="https://blog.plover.com/aliens/dd/p14.html">Page 14 (terrain)</a>
+<a href="https://blog.plover.com/aliens/dd/p15.html">Page 15 (human anatomy)</a>
+<a href="https://blog.plover.com/aliens/dd/p16.html">Page 16 (vital statistics)</a>
+<a href="https://blog.plover.com/aliens/dd/p17.html">Page 17 (DNA chemistry)</a></p>
+
+<p>This is page 18 of the <a
+href="https://en.wikipedia.org/wiki/Cosmic_Call"><i>Cosmic Call</i></a>
+message.  An explanation follows.<p></p>
+
+<p align=center><img src="https://pic.blog.plover.com/aliens/dd/png/p18.png"></p>
+
+<p>The 10 digits are: </p>
+
+<p align=center><table align=center>
+<tr>
+<td align=center><img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/0.png"/><br>0
+<td align=center><img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/1.png"/><br>1
+<td align=center><img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/2.png"/><br>2
+<td align=center><img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/3.png"/><br>3
+<td align=center><img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/4.png"/><br>4
+<td align=center><img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/5.png"/><br>5
+<td align=center><img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/6.png"/><br>6
+<td align=center><img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/7.png"/><br>7
+<td align=center><img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/8.png"/><br>8
+<td align=center><img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/9.png"/><br>9
+</table></p>
+
+<p>This page depicts the best way to fry eggs.  The optimal fried egg is
+shown at left.  Ha ha, just kidding.  The left half of the page
+explains cellular respiration.  The fried egg is actually a cell, with
+a DNA molecule in its nucleus.  Will the aliens be familiar enough
+with the structure of DNA to recognize that the highly abbreviated
+picture of the DNA molecule is related to the nucleobases on the
+previous page?  Perhaps, if their genetic biochemistry is similar to
+ours, but we really have no reason to think that it is.</p>
+
+<p><img align="right" src="https://pic.blog.plover.com/aliens/dd/extra/DNA-small.png">
+The illustration of the DNA molecule is subtly wrong.  It shows a
+symmetric molecule.  In reality, one of the two grooves between the
+strands is about twice as big as the other, as shown at right.</p>
+
+<p>The top formula says that C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and
+O<sub>2</sub> go into the cell; the bottom formula says that CO<sub>2</sub> comes
+out.  (Energy comes out also; I wonder why this wasn't mentioned.)
+The notation for chemical compounds here is  different from that used
+on 
+<a href="">page 14</a>: there, O<sub>2</sub> was written as 
+<img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/oxygen.png"/>
+<img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/oxygen.png"/>;
+here it is written as 
+<img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/2.png"/>
+<img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/×.png"/>
+<img src="https://pic.blog.plover.com/aliens/dd/glyphs/named/oxygen.png"/> (“2×O”).</p>
+
+<p>The glyph near the left margin <img
+src="https://pic.blog.plover.com/aliens/dd/glyphs/named/cell.png"/> does not appear elsewhere,
+but I think it is supposed to mean “cell”.  Supposing that is correct,
+the text at the bottom says that the number of cells in a man or woman
+is !!10^{13}!!.  The number of cells in a human is not known, except
+very approximately, but !!10^{13}!! is probably the right order of
+magnitude.  (<a href="http://www.ncbi.nlm.nih.gov/pubmed/23829164">A
+2013 paper from <i>Annals of Human Biology</i></a> estimates
+!!3.72\cdot 10^{13}!!.)</p>
+
+<p>Next to the cell is a ruler labeled !!10^{-5}!! meters, which is a
+typical size for a eukaryotic cell.</p>
+
+<p>The illustration on the right of the page, annotated with the glyphs
+for the four nucleobases from the previous page <img
+src="https://pic.blog.plover.com/aliens/dd/glyphs/named/adenine.png"/> <img
+src="https://pic.blog.plover.com/aliens/dd/glyphs/named/cytosine.png"/> <img
+src="https://pic.blog.plover.com/aliens/dd/glyphs/named/guanine.png"/> <img
+src="https://pic.blog.plover.com/aliens/dd/glyphs/named/thymine.png"/>, depicts the
+duplication of genetic material during cellular division.  The DNA
+molecule splits down the middle like a zipper.  The cell then
+constructs a new mate for each half of the zipper, and when it
+divides, each daughter cell gets one complete zipper.</p>
+
+<p><a href="https://pic.blog.plover.com/aliens/dd/png/p20.png"><img align="right"
+src="https://pic.blog.plover.com/aliens/dd/reduced/p20.png"></a><a href="https://pic.blog.plover.com/aliens/dd/png/p19.png"><img align="right"
+src="https://pic.blog.plover.com/aliens/dd/reduced/p19.png"></a></p> The <a href="https://blog.plover.com/aliens/dd/p19.html">next
+article</a> will discuss pages 19 and 20, shown at
+right.  (Click to enlarge.)  Try to figure it out before then.  <p></p>
+
+</p>
+
+<br clear=all>
+<p align="right">
+<i>[<a href="https://blog.plover.com/aliens/dd">Other articles in category /aliens/dd</a>] 
+<a href="https://blog.plover.com/aliens/dd/p18.html">permanent link</a></i>
+</p>
+
+<br />
+
+  </td>
+
+ </tr>
+
+</table>
+
+</body>
+
+</html>
+
