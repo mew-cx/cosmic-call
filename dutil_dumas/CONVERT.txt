@@ -1,0 +1,3 @@
+  179  convert x-241.png  z-241.pbm
+  196  convert  x-241.png  pbm: | pnmtoplainpnm > zz
+  197  convert  x-241.png  pbm:zz.pbm ; pnmtoplainpnm zz.pbm > z2.pbm
