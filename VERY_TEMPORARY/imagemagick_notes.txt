@@ -1,0 +1,9 @@
+
+file:///usr/share/doc/imagemagick-6-common/html/www/command-line-processing.html
+file:///usr/share/doc/imagemagick-6-common/html/www/identify.html
+
+https://legacy.imagemagick.org/Usage/formats/
+https://imagemagick.org/script/command-line-options.php
+https://stackoverflow.com/questions/50846678/how-to-convert-scanned-jpg-files-to-pbm-format-losslessly
+https://www.commandlinux.com/man-page/man1/netpbm.1.html
+
